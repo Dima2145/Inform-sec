@@ -16,9 +16,9 @@
 
 ![Снимок247](https://github.com/user-attachments/assets/d42fe4f3-b05c-478d-91a6-1bd2c94bb3f5)
 
-CVE-2010-4478 - https://vulners.com/cve/CVE-2010-4478;
-SSV:60292 - https://vulners.com/seebug/SSV:60292;
-CVE-2022-2795 - https://vulners.com/cve/CVE-2022-2795.
+CVE-2010-4478 - https://vulners.com/cve/CVE-2010-4478;  
+SSV:60292 - https://vulners.com/seebug/SSV:60292;  
+CVE-2022-2795 - https://vulners.com/cve/CVE-2022-2795.  
 
 ## Задание 2
 * Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
