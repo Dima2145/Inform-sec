@@ -12,6 +12,9 @@
 * Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
 * Приведите ответ в свободной форме.
 ## Решение 1
+![Снимок243](https://github.com/user-attachments/assets/a062f8e6-2605-4a40-bf09-ceb04b09bcf8)
+
+
 ![Снимок242](https://github.com/user-attachments/assets/c12ca605-52f6-4ab6-bafb-23f4eee3f30d)   
 
 Zabbix Agent (порт 10050/tcp
