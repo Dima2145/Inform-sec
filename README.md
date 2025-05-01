@@ -24,6 +24,15 @@ Zabbix Agent (порт 10050/tcp
 
 https://ubuntu.com/security/CVE-2017-2824
 
+8090/tcp  open  opsmessaging
+
+https://nvd.nist.gov/vuln/detail/cve-2023-46604
+
+SSH (порт 22/tcp)
+
+https://access.redhat.com/security/cve/cve-2023-38408
+
+
 Задание 2
 Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
 
