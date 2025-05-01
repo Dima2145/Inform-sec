@@ -42,25 +42,22 @@ https://access.redhat.com/security/cve/cve-2023-38408
 Режим SYN - режим опроса портов по протоколу TCP, когда посылается пакет с флагом SYN на определенный порт
 Возможные ответы:
 
-SYN/ACK(порт открыт)
-RST(порт закрыт)
-нет ответа (порт отфильтрован)
-FIN - пакеты отправляются с флагом FIN. Такое сканирование может быть менее заметным и может помочь обойти некоторые фаерволы
-Возможные ответы:
-
-No response received (even after retransmissions) open|filtered
-TCP RST packet closed
+* SYN/ACK(порт открыт)  
+RST(порт закрыт)  
+нет ответа (порт отфильтрован)  
+* FIN - пакеты отправляются с флагом FIN. Такое сканирование может быть менее заметным и может помочь обойти некоторые фаерволы
+  Возможные ответы: 
+No response received (even after retransmissions) open|filtered  
+TCP RST packet closed  
 ICMP unreachable error (type 3, code 1, 2, 3, 9, 10, or 13) filtered
-Xmas - пакеты отправляются с флагами FIN, PSH, and URG.
-Возможные ответы:
-
-No response received (even after retransmissions) open|filtered
-TCP RST packet closed
-ICMP unreachable error (type 3, code 1, 2, 3, 9, 10, or 13) filtered
-UDP - сканирование портов происходит по протоколу UDP.
-Возможные ответы:
-
-Any UDP response from target port - open
-No response received (even after retransmissions) - port open|filtered
-ICMP port unreachable error (type 3, code 3) - port closed
-Other ICMP unreachable errors (type 3, code 1, 2, 9, 10, or 13) - port filtered
+* Xmas - пакеты отправляются с флагами FIN, PSH, and URG. 
+Возможные ответы:  
+No response received (even after retransmissions) open|filtered  
+TCP RST packet closed  
+ICMP unreachable error (type 3, code 1, 2, 3, 9, 10, or 13) filtered  
+* UDP - сканирование портов происходит по протоколу UDP.  
+Возможные ответы:  
+Any UDP response from target port - open  
+No response received (even after retransmissions) - port open|filtered  
+ICMP port unreachable error (type 3, code 3) - port closed  
+Other ICMP unreachable errors (type 3, code 1, 2, 9, 10, or 13) - port filtered  
