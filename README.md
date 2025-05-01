@@ -18,7 +18,8 @@
 Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
 Приведите ответ в свободной форме.
 ## Решение 1
-![Снимок242](https://github.com/user-attachments/assets/c12ca605-52f6-4ab6-bafb-23f4eee3f30d)
+![Снимок242](https://github.com/user-attachments/assets/c12ca605-52f6-4ab6-bafb-23f4eee3f30d)   
+
 Zabbix Agent (порт 10050/tcp
 
 https://ubuntu.com/security/CVE-2017-2824
