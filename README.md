@@ -12,23 +12,13 @@
 * Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
 * Приведите ответ в свободной форме.
 ## Решение 1
-![Снимок243](https://github.com/user-attachments/assets/a062f8e6-2605-4a40-bf09-ceb04b09bcf8)
+![Снимок253](https://github.com/user-attachments/assets/2148e833-2755-45e2-be6b-febca97295f2)
 
+![Снимок247](https://github.com/user-attachments/assets/d42fe4f3-b05c-478d-91a6-1bd2c94bb3f5)
 
-![Снимок242](https://github.com/user-attachments/assets/c12ca605-52f6-4ab6-bafb-23f4eee3f30d)   
-
-Zabbix Agent (порт 10050/tcp
-
-https://ubuntu.com/security/CVE-2017-2824
-
-8090/tcp  open  opsmessaging
-
-https://nvd.nist.gov/vuln/detail/cve-2023-46604
-
-SSH (порт 22/tcp)
-
-https://access.redhat.com/security/cve/cve-2023-38408
-
+CVE-2010-4478 - https://vulners.com/cve/CVE-2010-4478;
+SSV:60292 - https://vulners.com/seebug/SSV:60292;
+CVE-2022-2795 - https://vulners.com/cve/CVE-2022-2795.
 
 ## Задание 2
 * Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
